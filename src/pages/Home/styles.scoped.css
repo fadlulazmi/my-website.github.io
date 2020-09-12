@@ -33,7 +33,16 @@
 }
 
 .home > div > p:hover {
-    transition: .6s;
+    transition: .3s;
     transform: translateX(-30px)
 }
 
+@media only screen and (max-width: 600px) {
+    .home {
+        background-size: 120px;
+        grid-template-columns: 80px 180px;
+    }
+    .home > div > p {
+        font-size: 30px;
+    }
+}

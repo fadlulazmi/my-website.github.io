@@ -19,7 +19,7 @@
     background-color: rgba(0,0,0,0);
 }
 
-.home > div > p {
+.home > div > div > p {
     font-size: 130px;
     font-weight: bold;
     color: white;
@@ -28,11 +28,11 @@
     background-color: rgba(0,0,0,0);
 }
 
-.home > div > p:not(:first-child) {
+.home > div > div:not(:first-child) > p {
     color: #DEBB00;
 }
 
-.home > div > p:hover {
+.home > div > div > p:hover {
     transition: .3s;
     transform: translateX(-30px)
 }
@@ -42,7 +42,7 @@
         background-size: 120px;
         grid-template-columns: 80px 180px;
     }
-    .home > div > p {
+    .home > div > div > p {
         font-size: 30px;
     }
 }

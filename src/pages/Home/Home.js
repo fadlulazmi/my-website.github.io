@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles.scoped.css'
 
 export default function Home() {
     return (

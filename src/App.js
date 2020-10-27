@@ -10,13 +10,15 @@ import {
 } from 'react-router-dom'
 
 function App() {
+  console.log(process.env.PUBLIC_URL, '============')
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
+          <Route component={Home} exact path='/' />
           <Route component={About} exact path='/about' />
           <Route component={Portfolio} exact path='/portfolio' />
-          <Route component={Home} exact path='/' />
+          <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </Router>
     </div>

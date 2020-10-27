@@ -45,7 +45,7 @@ export default function About() {
                         <div>
                             <p className="animate" >
                                 I'm graduated from Geophysics major, and had several experiences in <b>Geoscience </b> 
-                                Field. Then, I switched my career to <b>Software Development</b>. 
+                                Fields. Then, I switched my career to <b>Software Development</b>. 
                                 So the question is <b>"WHY?"</b>, Because, I want to keep growing, upgrade my skills, 
                                 and easily to direct practicing while learning. 
                                 <span role="img" aria-label="icon">😄</span>                              

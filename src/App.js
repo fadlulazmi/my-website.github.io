@@ -12,8 +12,7 @@ import {
 function App() {
   console.log(process.env.PUBLIC_URL)
   return (
-    <div className="App">
-      <Router basename={'https://fadlulazmi.github.io/'}>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route component={Home} exact path='/' />
           <Route component={About} exact path='/about' />
@@ -21,7 +20,6 @@ function App() {
           <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </Router>
-    </div>
   );
 }
 

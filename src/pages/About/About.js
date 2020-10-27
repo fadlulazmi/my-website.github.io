@@ -6,17 +6,13 @@ import { Breadcrumb } from 'antd';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 
 export default function About() {
-    const location = window.location
     return (
         <Animated animationIn="fadeInUp" animationOut="fadeOutDown" animationInDuration="1000" animationOutDuration="1000">
             <section className="about">
                 <div/>
                 <div>
                     <Animated animationIn="fadeInUp" animationInDuration="500">
-                        <p 
-                            className="animate clickable" 
-                            onClick={() => location.href="/"}
-                        >
+                        <p className="animate" >
                             want to know more ?
                         </p>
                     </Animated>
